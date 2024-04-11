@@ -48,3 +48,22 @@ article.product{
 article.product > img {
     height: 600px
 }
+
+div.footer-bar{
+    display: flex;
+    flex-direction: row;
+    background-color: #1a1a1a;
+    color: white;
+    justify-content: space-around;
+    padding: 1rem;
+    align-items: center;
+    
+}
+section.infos{
+    margin-right: 18rem;
+}
+footer li, 
+i{
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+}
