@@ -79,8 +79,15 @@ div.favorite{
 #last-one{
     left: 0%;
 }
-
-
+span.discount-price{
+    color: red;
+}
+span.cut-price{
+    text-decoration-line: line-through;
+}
+p.product-name{
+    font-size: larger;
+}
 
 
 
