@@ -11,6 +11,9 @@ header{
     justify-content: space-around;
     padding: 0.9rem;
     align-content: center;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
 }
 
 .flex-row{
@@ -43,11 +46,12 @@ article.product{
     width: calc(100% / 3 );
     object-fit: contain;
     margin-bottom: 2.5rem;
-    position: relative
+    position: relative;
 }
 
-article.product > img {
-    height: 600px
+article.product > img{
+    height: 600px;
+    position: relative;
 }
 
 div.discount{
