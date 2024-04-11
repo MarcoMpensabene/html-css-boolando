@@ -10,7 +10,7 @@ header{
     background-color: #ff6900;
     justify-content: space-around;
     padding: 0.9rem;
-    align-items: center;
+    align-content: center;
 }
 
 .flex-row{
@@ -21,7 +21,7 @@ ul{
     list-style: none;
 }
 .main-logo img{
-    height: 50px;
+    height: 30px;
     
 }
 li,
@@ -35,19 +35,57 @@ div.main-box{
     flex-wrap: wrap;
     width: 80%;
     justify-content: space-between;
-    padding: 3rem;
+    padding: 4rem 6.5rem 4rem;
     
 }
 
 article.product{
-    width: calc((100% / 3 ) -2rem );
+    width: calc(100% / 3 );
     object-fit: contain;
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
+    position: relative
 }
 
 article.product > img {
     height: 600px
 }
+
+div.discount{
+    background-color: red;
+    width: fit-content;
+    color: white;
+    position: absolute;
+    bottom: 15%;
+    padding: 0.5rem;
+}
+
+div.green-choice{
+    background-color: #008000;
+    width: fit-content;
+    color: white;
+    bottom: 15%;
+    left: 13%;
+    padding: 0.5rem;
+    position: absolute;
+}
+div.favorite{
+    position:absolute;
+    top: 2%;
+    right: 6%;
+    font-size: 2.5rem;
+    background-color: white;
+    padding: 0.7rem;
+}
+#last-one{
+    left: 0%;
+}
+
+
+
+
+
+
+
 
 div.footer-bar{
     display: flex;
